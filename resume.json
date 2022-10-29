@@ -1,118 +1,172 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "name": "Vitor Prado",
+    "label": "Mobile & Backend Developer",
+    "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQGKJrxgjDCPLA/profile-displayphoto-shrink_800_800/0/1643296840009?e=1672272000&v=beta&t=07kNqyCSuDts-P-kTNjLDwr8yG6iVB7_dmQW3sTRJAA",
+    "email": "hello@vitorprado.dev",
+    "phone": "+55 (11) 98862-8233",
+    "summary": "I'm a Mobile and backend developer based in Brazil with solid experience in building entire systems from scratch. I've been working with code since 2012, helping businesses to solve their problems through technology.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Sao Paulo,",
+      "region": "Brazil"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "vitorprado",
+        "url": "https://github.com/vitorprado"
+      },
+      {
+        "network": "Website",
+        "username": "vitorprado.dev",
+        "url": "https://vitorprado.dev"
+      }
+    ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+  "work": [
+    {
+      "company": "Laundro",
+      "position": "Main Developer",
+      "url": "https://laundro.com.br",
+      "startDate": "Dec, 2021",
+      "summary": "I built the whole technology stack of the company. When I join the app already exists and the system worked on Firebase real-time database and some functions (serverless). I went with TypeScript and AdonisJS to build a new API and delivered a full-featured server with the ability to handle payments, multiple external applications (for partners), and a set of tools for the operations team. After that, I rewrite the app to use the new APIs and native payment",
+      "highlights": [
+        "Responsible for whole tech stack",
+        "TypeScript",
+        "React Native",
+        "AdonisJS",
+        "PostgresSQL",
+        "Redis",
+        "Heroku"
+      ]
+    },
+    {
+      "company": "Worldpackers",
+      "position": "Android Developer",
+      "url": "https://worldpackers.com",
+      "startDate": "Jun, 2018",
+      "endDate": "Dec, 2021",
+      "summary": "Worked as the main Android developer, improving two apps (travelers and hosts). I lead the migration of the host's app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile. Occasionally I helped the web team with Ruby on Rails tasks and bug fixes.",
+      "highlights": [
+        "Android",
+        "Java",
+        "Kotlin",
+        "iOS",
+        "Swift",
+        "Kotlin Multiplatform",
+        "Compose",
+        "SwiftUI",
+        "Ruby on Rails",
+        "Heroku"
+      ]
+    },
+    {
+      "company": "Ingresso Rapido",
+      "position": "Android Developer",
+      "url": "https://www.ingressorapido.com.br",
+      "startDate": "Oct, 2016",
+      "endDate": "Oct, 2017",
+      "summary": "Worked as an Android developer, responsible for the ticket reader app used in concerts and theaters to validate tickets. I delivered a way to minimize fraud using local broadcasts on the intranet and the ability to use a USB barcode scanner attached to an android device to increase velocity in operations.",
+      "highlights": [
+        "Android",
+        "Java",
+        "Kotlin"
+      ]
+    },
+    {
+      "company": "Grupo Verisoft",
+      "position": "Android Developer",
+      "url": "https://verisoft.com.br/",
+      "startDate": "Jan, 2014",
+      "endDate": "Oct, 2016",
+      "summary": "Worked as main Android developer, building white-label applications for mobile carriers. We made a Ferrari sticker album app used by Claro (mobile carrier) in Mexico. For a few months, I was the only one developing “Vivo TreinApp” on the web, an internal web app used by Vivo (mobile carrier) to train employees.",
+      "highlights": [
+        "Android",
+        "Java",
+        "Ruby on Rails"
+      ]
+    },
+    {
+      "company": "Pinuts Studios",
+      "position": "Android Developer",
+      "url": "",
+      "startDate": "Feb, 2013",
+      "endDate": "Jan, 2014",
+      "summary": "Pinuts was an outsourcing company focused on the mobile market. I was employed as Rails developer but moved to be an Android developer after the first month.",
+      "highlights": [
+        "Android",
+        "Ruby on Rails"
+      ]
+    },
+    {
+      "company": "Menki Games",
+      "position": "Internship",
+      "url": "",
+      "startDate": "Jan, 2012",
+      "endDate": "Jan, 2013",
+      "summary": "I joined Menki as an intern to develop mobile games using Lua & CoronaSDK. I have acquired countless knowledge about Lua, Ruby on Rails, APIs, and Android native.",
+      "highlights": [
+        "Lua",
+        "CoronaSDK",
+        "Android",
+        "Ruby on Rails"
+      ]
+    }
+  ],
   "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
+    "institution": "Technical School of UNICAMP",
+    "url": "https://cotuca.unicamp.br/cotuca",
     "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+    "studyType": "Certificate",
+    "startDate": "Jan, 2010",
+    "endDate": "Dec, 2011"
   }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "description": "Description…",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "keywords": [
-      "HTML"
-    ],
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "url": "https://project.com/",
-    "roles": [
-      "Team Lead"
-    ],
-    "entity": "Entity",
-    "type": "application"
-  }]
+  "skills": [
+    {
+      "name": "Mobile Development",
+      "level": "Senior",
+      "keywords": [
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Kotlin Multiplatform",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Senior",
+      "keywords": [
+        "Ruby",
+        "JavaScript/TypeScript",
+        "PosrgresSQL",
+        "APIs",
+        "Severless"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": []
+    },
+    {
+      "name": "Cycling",
+      "keywords": []
+    },
+    {
+      "name": "Cooking",
+      "keywords": []
+    }
+  ]
 }
