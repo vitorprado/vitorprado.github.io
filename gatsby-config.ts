@@ -44,7 +44,7 @@ const config: GatsbyConfig = {
 				resolve: `gatsby-theme-jsonresume`,
 				options: {
 					name: "resume",
-					theme: "jsonresume-theme-caffeine",
+					theme: "jsonresume-theme-vp",
 					resumeJson: Resume
 				},
 			},

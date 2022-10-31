@@ -17,7 +17,7 @@
         "url": "https://github.com/vitorprado"
       },
       {
-        "network": "Website",
+        "network": "Desktop",
         "username": "vitorprado.dev",
         "url": "https://vitorprado.dev"
       }
@@ -157,16 +157,13 @@
   ],
   "interests": [
     {
-      "name": "Music",
-      "keywords": []
+      "name": "Music"
     },
     {
-      "name": "Cycling",
-      "keywords": []
+      "name": "Cycling"
     },
     {
-      "name": "Cooking",
-      "keywords": []
+      "name": "Cooking"
     }
   ]
 }
