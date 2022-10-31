@@ -1,0 +1,602 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Vitor Prado</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    /* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaZrEtFpBI4f1ZSIK9d4LjJ4g03OwRmPg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM3OwRmPg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaZrEtFpBI4f1ZSIK9d4LjJ4rQwOwRmPg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaZrEtFpBI4f1ZSIK9d4LjJ4vowOwRmPg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Exo", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 5px; }
+
+h2 {
+  font-family: "Exo", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Exo", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Exo", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+blockquote {
+  font-size: 11px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    column-count: 2;
+    column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+.title {
+  margin-bottom: 10px; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #242D35; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #242D35; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 794px;
+  min-height: 1123px;
+  display: block;
+  margin: 0 auto;
+  padding: 36px 22px 30px 34px; }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 250px;
+  margin-right: 20px;
+  word-wrap: break-word;
+  padding: 20px; }
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+  padding: 10px 20px 20px 20px; }
+
+.accent-container {
+  background-color: #242D35;
+  color: #fff;
+  margin-left: -20px;
+  margin-top: -20px; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px; }
+
+.references-container .fa {
+  font-size: 14px; }
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400; }
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic; }
+
+  </style>
+</head>
+
+<body>
+  <main id="resume" class="page">
+    <div class="resume-content">
+      <aside class="left-column">
+        <header class="resume-header clearfix">
+          <div class="left-column accent-container">
+            <div class="profile-pic">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGKJrxgjDCPLA/profile-displayphoto-shrink_800_800/0/1643296840009?e&#x3D;1672272000&amp;v&#x3D;beta&amp;t&#x3D;07kNqyCSuDts-P-kTNjLDwr8yG6iVB7_dmQW3sTRJAA" alt="profile-pic">
+            </div>
+            <h1>Vitor Prado</h1>
+            <h2>Mobile &amp; Backend Developer</h2>
+            <!-- add spacing -->
+            <div class="keyline"></div>
+        
+                <div class="info-tag-container">
+                  <i class="fa fa-map-marker"></i>
+                
+                  <h6 class="info-text">Sao Paulo, Brazil</h6>
+                </div>
+        
+              <div class="info-tag-container">
+                <i class="fa fa-envelope-o"></i>
+              
+                <h6 class="info-text">hello@vitorprado.dev</h6>
+              </div>
+        
+              <div class="info-tag-container">
+                <i class="fa fa-mobile"></i>
+              
+                <h6 class="info-text">+55 (11) 98862-8233</h6>
+              </div>
+        
+        
+                      <div class="info-tag-container">
+                        <i class="fa fa-github"></i>
+                      
+                        <h6 class="info-text">
+                          <a href="https://github.com/vitorprado" target="_blank">
+                            vitorprado <i class="fa fa-external-link" aria-hidden="true"></i>
+                          </a>
+                        </h6>
+                      </div>
+                      <div class="info-tag-container">
+                        <i class="fa fa-desktop"></i>
+                      
+                        <h6 class="info-text">
+                          <a href="https://vitorprado.dev" target="_blank">
+                            vitorprado.dev <i class="fa fa-external-link" aria-hidden="true"></i>
+                          </a>
+                        </h6>
+                      </div>
+          </div>
+        </header>
+        <div class="container education-container">
+          <div class="title">
+          <h3>Education</h3>
+        </div>
+         
+          <section class="item">
+        <!--    <div class="section-header clearfix">
+          <h4 class="bold pull-left">
+              Technical School of UNICAMP
+          </h4>
+          <h5 class="italic pull-right">
+              <span class="startDate">01/2010</span>
+              <span class="endDate"> - 12/2011</span>
+          </h5>
+        </div>
+        -->
+            <h4>Technical School of UNICAMP</h4>
+        
+            <h5>Certificate in Software Development</h5>
+            <h5>
+                <span class="startDate">01/2010</span>
+                    <span class="endDate"> - 12/2011</span>
+            </h5>
+          </section>
+        </div>
+        <div class="skills-container">
+          <section class="container">
+              <div class="title">
+                <h3>Mobile Development</h3>
+              </div>
+              <h4 class="bold">Senior</h4>
+              <ul class="minimal">
+                <li>
+                  <h6>Java</h6>
+                </li>
+                <li>
+                  <h6>Kotlin</h6>
+                </li>
+                <li>
+                  <h6>Swift</h6>
+                </li>
+                <li>
+                  <h6>Kotlin Multiplatform</h6>
+                </li>
+                <li>
+                  <h6>React Native</h6>
+                </li>
+              </ul>
+          </section>
+          <section class="container">
+              <div class="title">
+                <h3>Backend Development</h3>
+              </div>
+              <h4 class="bold">Senior</h4>
+              <ul class="minimal">
+                <li>
+                  <h6>Ruby</h6>
+                </li>
+                <li>
+                  <h6>JavaScript/TypeScript</h6>
+                </li>
+                <li>
+                  <h6>PosrgresSQL</h6>
+                </li>
+                <li>
+                  <h6>APIs</h6>
+                </li>
+                <li>
+                  <h6>Severless</h6>
+                </li>
+              </ul>
+          </section>
+        </div>
+        <div class="container languages-container">
+          <div class="title">
+            <h3>Languages</h3>
+          </div>
+        
+          <ul class="minimal">
+            <li>
+              <h6>Portuguese <em>(Native speaker)</em></h6>
+            </li>
+            <li>
+              <h6>English <em>(Advanced)</em></h6>
+            </li>
+          </ul>
+        </div>
+        <div class="container interests-container">
+          <div class="title">
+            <h3>Interests</h3>
+          </div>
+        
+          <ul class="minimal">
+                  <li><h6>Music</h6></li>
+                  <li><h6>Cycling</h6></li>
+                  <li><h6>Cooking</h6></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="right-column">
+        <div class="container summary-container">
+          <div class="title">
+            <h3>Summary</h3>
+          </div>
+          <p class="summary">
+            I&#x27;m a Mobile and backend developer based in Brazil with solid experience in building entire systems from scratch. I&#x27;ve been working with code since 2012, helping businesses to solve their problems through technology.
+          </p>
+        </div>
+        <div class="container work-container">
+          <div class="title">
+            <h3>Experience</h3>
+          </div>
+        
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  Laundro
+              </h4>
+              <h5 class="italic pull-right">
+                  <span class="startDate">12/2021</span>
+                  <span class="endDate"> - Present</span>
+              </h5>
+            </div>
+        
+              <h5>Main Developer</h5>
+        
+              <p class="summary">I built the whole technology stack of the company. When I join the app already exists and the system worked on Firebase real-time database and some functions (serverless). I went with TypeScript and AdonisJS to build a new API and delivered a full-featured server with the ability to handle payments, multiple external applications (for partners), and a set of tools for the operations team. After that, I rewrite the app to use the new APIs and native payment</p>
+        
+              <ul>
+                <li>Responsible for whole tech stack</li>
+                <li>TypeScript</li>
+                <li>React Native</li>
+                <li>AdonisJS</li>
+                <li>PostgresSQL</li>
+                <li>Redis</li>
+                <li>Heroku</li>
+              </ul>
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  Worldpackers
+              </h4>
+              <h5 class="italic pull-right">
+                  <span class="startDate">06/2018</span>
+                  <span class="endDate"> - 12/2021</span>
+              </h5>
+            </div>
+        
+              <h5>Android Developer</h5>
+        
+              <p class="summary">Worked as the main Android developer, improving two apps (travelers and hosts). I lead the migration of the host&#x27;s app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile. Occasionally I helped the web team with Ruby on Rails tasks and bug fixes.</p>
+        
+              <ul>
+                <li>Android</li>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>iOS</li>
+                <li>Swift</li>
+                <li>Kotlin Multiplatform</li>
+                <li>Compose</li>
+                <li>SwiftUI</li>
+                <li>Ruby on Rails</li>
+                <li>Heroku</li>
+              </ul>
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  Ingresso Rapido
+              </h4>
+              <h5 class="italic pull-right">
+                  <span class="startDate">10/2016</span>
+                  <span class="endDate"> - 10/2017</span>
+              </h5>
+            </div>
+        
+              <h5>Android Developer</h5>
+        
+              <p class="summary">Worked as an Android developer, responsible for the ticket reader app used in concerts and theaters to validate tickets. I delivered a way to minimize fraud using local broadcasts on the intranet and the ability to use a USB barcode scanner attached to an android device to increase velocity in operations.</p>
+        
+              <ul>
+                <li>Android</li>
+                <li>Java</li>
+                <li>Kotlin</li>
+              </ul>
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  Grupo Verisoft
+              </h4>
+              <h5 class="italic pull-right">
+                  <span class="startDate">01/2014</span>
+                  <span class="endDate"> - 10/2016</span>
+              </h5>
+            </div>
+        
+              <h5>Android Developer</h5>
+        
+              <p class="summary">Worked as main Android developer, building white-label applications for mobile carriers. We made a Ferrari sticker album app used by Claro (mobile carrier) in Mexico. For a few months, I was the only one developing “Vivo TreinApp” on the web, an internal web app used by Vivo (mobile carrier) to train employees.</p>
+        
+              <ul>
+                <li>Android</li>
+                <li>Java</li>
+                <li>Ruby on Rails</li>
+              </ul>
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  Pinuts Studios
+              </h4>
+              <h5 class="italic pull-right">
+                  <span class="startDate">02/2013</span>
+                  <span class="endDate"> - 01/2014</span>
+              </h5>
+            </div>
+        
+              <h5>Android Developer</h5>
+        
+              <p class="summary">Pinuts was an outsourcing company focused on the mobile market. I was employed as Rails developer but moved to be an Android developer after the first month.</p>
+        
+              <ul>
+                <li>Android</li>
+                <li>Ruby on Rails</li>
+              </ul>
+          </section>
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  Menki Games
+              </h4>
+              <h5 class="italic pull-right">
+                  <span class="startDate">01/2012</span>
+                  <span class="endDate"> - 01/2013</span>
+              </h5>
+            </div>
+        
+              <h5>Internship</h5>
+        
+              <p class="summary">I joined Menki as an intern to develop mobile games using Lua &amp; CoronaSDK. I have acquired countless knowledge about Lua, Ruby on Rails, APIs, and Android native.</p>
+        
+              <ul>
+                <li>Lua</li>
+                <li>CoronaSDK</li>
+                <li>Android</li>
+                <li>Ruby on Rails</li>
+              </ul>
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
