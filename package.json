@@ -27,7 +27,7 @@
     "gatsby-transformer-remark": "^5.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
     "jsonresume-theme-caffeine": "^1.2.3",
-    "jsonresume-theme-vp": "^1.0.0",
+    "jsonresume-theme-vp": "^1.0.8",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },

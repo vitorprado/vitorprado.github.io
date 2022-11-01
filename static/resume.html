@@ -61,7 +61,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   background: #f8f8f8;
-  margin: 50px 0 100px;
+  margin: 0;
   letter-spacing: .3px;
   color: #39424B; }
 
@@ -152,7 +152,8 @@ ul {
     -webkit-column-count: 2;
     -webkit-column-gap: 28px;
     column-count: 2;
-    column-gap: 28px; }
+    column-gap: 28px;
+    padding-left: 20px; }
     ul.two-column li {
       padding-left: 0; }
 
@@ -160,7 +161,7 @@ ul {
   margin-bottom: 10px; }
 
 @page {
-  size: A4; }
+  size: Letter; }
 
 .container {
   padding-top: 20px; }
@@ -196,11 +197,11 @@ ul {
 /* Layouts */
 .page {
   background: white;
-  width: 794px;
-  min-height: 1123px;
+  width: 100%;
+  min-height: 11in;
   display: block;
   margin: 0 auto;
-  padding: 36px 22px 30px 34px; }
+  padding: 0; }
   .page:after {
     content: "";
     display: table;
@@ -470,7 +471,7 @@ ul {
         
               <p class="summary">I built the whole technology stack of the company. When I join the app already exists and the system worked on Firebase real-time database and some functions (serverless). I went with TypeScript and AdonisJS to build a new API and delivered a full-featured server with the ability to handle payments, multiple external applications (for partners), and a set of tools for the operations team. After that, I rewrite the app to use the new APIs and native payment</p>
         
-              <ul>
+              <ul class="two-column">
                 <li>Responsible for whole tech stack</li>
                 <li>TypeScript</li>
                 <li>React Native</li>
@@ -495,7 +496,7 @@ ul {
         
               <p class="summary">Worked as the main Android developer, improving two apps (travelers and hosts). I lead the migration of the host&#x27;s app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile. Occasionally I helped the web team with Ruby on Rails tasks and bug fixes.</p>
         
-              <ul>
+              <ul class="two-column">
                 <li>Android</li>
                 <li>Java</li>
                 <li>Kotlin</li>
@@ -523,7 +524,7 @@ ul {
         
               <p class="summary">Worked as an Android developer, responsible for the ticket reader app used in concerts and theaters to validate tickets. I delivered a way to minimize fraud using local broadcasts on the intranet and the ability to use a USB barcode scanner attached to an android device to increase velocity in operations.</p>
         
-              <ul>
+              <ul class="two-column">
                 <li>Android</li>
                 <li>Java</li>
                 <li>Kotlin</li>
@@ -544,7 +545,7 @@ ul {
         
               <p class="summary">Worked as main Android developer, building white-label applications for mobile carriers. We made a Ferrari sticker album app used by Claro (mobile carrier) in Mexico. For a few months, I was the only one developing “Vivo TreinApp” on the web, an internal web app used by Vivo (mobile carrier) to train employees.</p>
         
-              <ul>
+              <ul class="two-column">
                 <li>Android</li>
                 <li>Java</li>
                 <li>Ruby on Rails</li>
@@ -565,7 +566,7 @@ ul {
         
               <p class="summary">Pinuts was an outsourcing company focused on the mobile market. I was employed as Rails developer but moved to be an Android developer after the first month.</p>
         
-              <ul>
+              <ul class="two-column">
                 <li>Android</li>
                 <li>Ruby on Rails</li>
               </ul>
@@ -585,7 +586,7 @@ ul {
         
               <p class="summary">I joined Menki as an intern to develop mobile games using Lua &amp; CoronaSDK. I have acquired countless knowledge about Lua, Ruby on Rails, APIs, and Android native.</p>
         
-              <ul>
+              <ul class="two-column">
                 <li>Lua</li>
                 <li>CoronaSDK</li>
                 <li>Android</li>
