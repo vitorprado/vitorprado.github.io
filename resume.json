@@ -29,7 +29,7 @@
       "position": "Main Developer",
       "url": "https://laundro.com.br",
       "startDate": "Dec, 2021",
-      "summary": "I built the whole technology stack of the company. Even though I wasn't at the beginning of the app's development, when I joined the company, the only existing code was a real-time database build using Firebase and some serverless functions. I implemented TypeScript and AdonisJS to build a new API and to deliver a full-featured server capable of handling payments and integrate with multiple external applications (for partners), as well as a set of tools for the operations team. Afterwards, I re-wrote the app in order to make it capable of using the new APIs and native payments.",
+      "summary": "I built the whole technology stack of the company. Even though I wasn't at the beginning of the app's development, when I joined the company, the only existing code was a real-time database build using Firebase and some serverless functions. I implemented TypeScript and AdonisJS to build a new API and to deliver a full-featured server capable of handling payments and integrate with multiple external applications (for partners), as well as a set of tools for the operations team. Afterward, I rewrote the app in order to make it capable of using the new APIs and native payments.",
       "highlights": [
         "Responsible for whole tech stack",
         "TypeScript",
@@ -92,7 +92,7 @@
       "url": "",
       "startDate": "Feb, 2013",
       "endDate": "Jan, 2014",
-      "summary": "Pinuts was an outsourcing company focused on the mobile market. I was hired as a Rails developer, but then switched Android Developer after the first month.",
+      "summary": "Pinuts was an outsourcing company focused on the mobile market. I was hired as a Rails developer, but then switched to Android Developer after the first month.",
       "highlights": [
         "Android",
         "Ruby on Rails"
