@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvitor_prado=self.webpackChunkvitor_prado||[]).push([[691],{7200:function(e,t,n){n.r(t),n.d(t,{Head:function(){return i}});var r=n(7294),a={width:"100%",height:"100%",paddingTop:200,fontFamily:"-apple-system, Roboto, sans-serif, serif"};t.default=function(){return r.createElement("main",{style:a},r.createElement("h1",{align:"center"},"Vitor Prado."))};var i=function(){return r.createElement("title",null,"Home Page")}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-af817762856ab9c31ab5.js.map
