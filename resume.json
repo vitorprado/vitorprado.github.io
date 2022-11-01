@@ -165,5 +165,14 @@
     {
       "name": "Cooking"
     }
+  ],
+  "publications": [
+    {
+      "name": "jetc.dev Newsletter Issue #55",
+      "publisher": "Jetc.dev",
+      "releaseDate": "2021-03-09",
+      "summary": "I was featured in \"Jetc.dev\", an important newsletter from the Jetpack Compose community, about a rating bar library I've made.",
+      "url": "https://jetc.dev/issues/055.html#gist-vitorprado--ratingbarkt"
+    }
   ]
 }

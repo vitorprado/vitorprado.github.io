@@ -105,7 +105,8 @@ h4 {
 h5 {
   font-family: "Exo", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 11px; }
+  font-size: 11px;
+  color: #8F428B; }
   h5.italic {
     font-style: italic; }
 
@@ -118,7 +119,7 @@ a {
   color: inherit;
   text-decoration: inherit; }
   a:hover {
-    color: #2895F1; }
+    color: #C359BE; }
   a .fa-external-link {
     font-size: 10px;
     vertical-align: text-top; }
@@ -158,7 +159,10 @@ ul {
       padding-left: 0; }
 
 .title {
-  margin-bottom: 10px; }
+  margin-bottom: 0; }
+
+.accent-text {
+  color: #8F428B; }
 
 @page {
   size: Letter; }
@@ -167,9 +171,9 @@ ul {
   padding-top: 20px; }
 
 .keyline {
-  width: 45px;
-  margin: 8px 0 10px;
-  border-top: 1px solid #242D35; }
+  width: 65px;
+  margin: 5px 0 10px;
+  border-top: 1px solid #C359BE; }
 
 .pull-left {
   float: left; }
@@ -346,6 +350,7 @@ ul {
         <div class="container education-container">
           <div class="title">
           <h3>Education</h3>
+          <div class="keyline"></div>
         </div>
          
           <section class="item">
@@ -362,16 +367,17 @@ ul {
             <h4>Technical School of UNICAMP</h4>
         
             <h5>Certificate in Software Development</h5>
-            <h5>
+            <h6>
                 <span class="startDate">01/2010</span>
                     <span class="endDate"> - 12/2011</span>
-            </h5>
+            </h6>
           </section>
         </div>
         <div class="skills-container">
           <section class="container">
               <div class="title">
                 <h3>Mobile Development</h3>
+                <div class="keyline"></div>
               </div>
               <h4 class="bold">Senior</h4>
               <ul class="minimal">
@@ -395,6 +401,7 @@ ul {
           <section class="container">
               <div class="title">
                 <h3>Backend Development</h3>
+                <div class="keyline"></div>
               </div>
               <h4 class="bold">Senior</h4>
               <ul class="minimal">
@@ -419,6 +426,7 @@ ul {
         <div class="container languages-container">
           <div class="title">
             <h3>Languages</h3>
+            <div class="keyline"></div>
           </div>
         
           <ul class="minimal">
@@ -433,6 +441,7 @@ ul {
         <div class="container interests-container">
           <div class="title">
             <h3>Interests</h3>
+            <div class="keyline"></div>
           </div>
         
           <ul class="minimal">
@@ -446,6 +455,7 @@ ul {
         <div class="container summary-container">
           <div class="title">
             <h3>Summary</h3>
+            <div class="keyline"></div>
           </div>
           <p class="summary">
             I&#x27;m a Mobile and backend developer based in Brazil with solid experience in building entire systems from scratch. I&#x27;ve been working with code since 2012, helping businesses to solve their problems through technology.
@@ -454,6 +464,7 @@ ul {
         <div class="container work-container">
           <div class="title">
             <h3>Experience</h3>
+            <div class="keyline"></div>
           </div>
         
           <section class="item">
@@ -595,6 +606,32 @@ ul {
           </section>
         </div>
 
+        <div class="container publications-container">
+          <div class="title">
+            <h3>Publications</h3>
+            <div class="keyline"></div>
+          </div>
+        
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  jetc.dev Newsletter Issue #55
+              </h4>
+              <h5 class="italic pull-right">
+                  03/2021
+                  </h5>
+            </div>
+        
+                <h5 class="awarder">
+                  <a href="https://jetc.dev/issues/055.html#gist-vitorprado--ratingbarkt" target="_blank">
+                    Jetc.dev <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </h5>
+        
+              <p class="summary">I was featured in &quot;Jetc.dev&quot;, an important newsletter from the Jetpack Compose community, about a rating bar library I&#x27;ve made.</p>
+        
+          </section>
+        </div>
       </div>
     </div>
   </main>
