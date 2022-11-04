@@ -5,7 +5,7 @@
     "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQGKJrxgjDCPLA/profile-displayphoto-shrink_800_800/0/1643296840009?e=1672272000&v=beta&t=07kNqyCSuDts-P-kTNjLDwr8yG6iVB7_dmQW3sTRJAA",
     "email": "hello@vitorprado.dev",
     "phone": "+55 (11) 98862-8233",
-    "summary": "I'm a Mobile and Backend Developer based in Brazil with solid experience in building entire systems from scratch. I've been working with code since 2012, helping businesses to solve their problems through technology.",
+    "summary": "I'm a Mobile and Backend developer based in Brazil with solid experience building entire systems from scratch. I've been working with code since 2012, helping businesses to solve their problems through technology.\nI have already worked with Android, iOS, Ruby, JavaScript/TypeScript, React Native, and KMM (Kotlin Multiplatform).",
     "location": {
       "city": "Sao Paulo,",
       "region": "Brazil"
@@ -38,7 +38,10 @@
         "AdonisJS",
         "PostgreSQL",
         "Redis",
-        "Heroku"
+        "Heroku",
+        "Unit Testing",
+        "TDD",
+        "CI/CD"
       ]
     },
     {
@@ -47,7 +50,7 @@
       "url": "https://worldpackers.com",
       "startDate": "Jun, 2018",
       "endDate": "Dec, 2021",
-      "summary": "I worked as the main Android Developer, improving two apps (travelers and hosts). I led the migration of the host's app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile, occasionally I helped the web development team with Ruby on Rails tasks and bug fixes.",
+      "summary": "I worked as the leading Android Developer, improving two apps (travelers and hosts). I led the migration of the host's app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile, occasionally I helped the web development team with Ruby on Rails tasks and bug fixes.",
       "highlights": [
         "Android",
         "Java",
@@ -58,7 +61,10 @@
         "Compose",
         "SwiftUI",
         "Ruby on Rails",
-        "Heroku"
+        "Heroku",
+        "Unit Testing",
+        "TDD",
+        "CI/CD"
       ]
     },
     {
@@ -93,10 +99,13 @@
       "url": "",
       "startDate": "Feb, 2013",
       "endDate": "Jan, 2014",
-      "summary": "Pinuts was an outsourcing company focused on the mobile market. I was hired as a Rails developer, but then switched to Android Developer after the first month.",
+      "summary": "Pinuts was an outsourcing company focused on the mobile market. The company hired me as a Rails developer, but then switched to Android Developer after the first month.",
       "highlights": [
         "Android",
-        "Ruby on Rails"
+        "Ruby on Rails",
+        "Unit Testing",
+        "TDD",
+        "CI/CD"
       ]
     },
     {
