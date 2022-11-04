@@ -26,23 +26,24 @@
   "work": [
     {
       "company": "Laundro",
-      "position": "Main Developer",
+      "position": "Lead Software Developer",
       "url": "https://laundro.com.br",
       "startDate": "Dec, 2021",
-      "summary": "I built the whole technology stack of the company. Even though I wasn't at the beginning of the app's development, when I joined the company, the only existing code was a real-time database build using Firebase and some serverless functions. I implemented TypeScript and AdonisJS to build a new API and to deliver a full-featured server capable of handling payments and integrate with multiple external applications (for partners), as well as a set of tools for the operations team. Afterward, I rewrote the app in order to make it capable of using the new APIs and native payments.",
+      "endDate": "Nov, 2022",
+      "summary": "I built the whole technology stack of the company. Even though I wasn't at the beginning of the app's development, when I joined the company, the only existing code was a real-time database built using Firebase. I implemented TypeScript and AdonisJS to create a new API and to deliver a full-featured server capable of handling payments and integrating with multiple external applications (for partners), as well as a set of tools for the operations team. Afterward, I rewrote the app to make it capable of using the new APIs and native payments.",
       "highlights": [
         "Responsible for whole tech stack",
         "TypeScript",
         "React Native",
         "AdonisJS",
-        "PostgresSQL",
+        "PostgreSQL",
         "Redis",
         "Heroku"
       ]
     },
     {
       "company": "Worldpackers",
-      "position": "Android Developer",
+      "position": "Senior Android Developer",
       "url": "https://worldpackers.com",
       "startDate": "Jun, 2018",
       "endDate": "Dec, 2021",
@@ -62,7 +63,7 @@
     },
     {
       "company": "Ingresso Rapido",
-      "position": "Android Developer",
+      "position": "Senior Android Developer",
       "url": "https://www.ingressorapido.com.br",
       "startDate": "Oct, 2016",
       "endDate": "Oct, 2017",
@@ -75,7 +76,7 @@
     },
     {
       "company": "Grupo Verisoft",
-      "position": "Android Developer",
+      "position": "Senior Android Developer",
       "url": "https://verisoft.com.br/",
       "startDate": "Jan, 2014",
       "endDate": "Oct, 2016",
@@ -100,7 +101,7 @@
     },
     {
       "company": "Menki Games",
-      "position": "Internship",
+      "position": "Development Intern",
       "url": "",
       "startDate": "Jan, 2012",
       "endDate": "Jan, 2013",
@@ -130,7 +131,10 @@
         "Kotlin",
         "Swift",
         "Kotlin Multiplatform",
-        "React Native"
+        "React Native",
+        "Server Driven UI",
+        "Unit Testing",
+        "CI/CD"
       ]
     },
     {
@@ -139,9 +143,10 @@
       "keywords": [
         "Ruby",
         "JavaScript/TypeScript",
-        "PosrgresSQL",
+        "NodeJS",
+        "PostgreSQL",
         "APIs",
-        "Severless"
+        "Unit Testing"
       ]
     }
   ],
