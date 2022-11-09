@@ -18,6 +18,10 @@ const Container = styled.section`
     font-weight: normal;
     padding: 0;
     margin: 0;
+    opacity: 0;
+    animation: enter-animation ease 300ms 600ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 
   h1 {
@@ -26,6 +30,10 @@ const Container = styled.section`
     font-size: 60px;
     padding: 0;
     margin: 0;
+    opacity: 0;
+    animation: enter-animation ease 300ms 750ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
   
   h2 {
@@ -34,6 +42,10 @@ const Container = styled.section`
     font-size: 55px;
     padding: 0;
     margin: -20px 0 0 0;
+    opacity: 0;
+    animation: enter-animation ease 300ms 900ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 
   p {
@@ -41,6 +53,10 @@ const Container = styled.section`
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     padding: 0;
     margin: 0;
+    opacity: 0;
+    animation: enter-animation ease 300ms 1050ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
 `
 

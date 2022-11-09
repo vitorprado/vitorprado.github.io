@@ -24,6 +24,11 @@ const Item = styled.a`
   font-weight: normal;
   background-color: transparent;
   
+  opacity: 0;
+  animation: enter-animation ease 300ms 300ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
   :hover {
     background-color: ${colors.color3}44;
     transition: all 200ms ease-in;
@@ -43,6 +48,11 @@ const HomeContainer = styled.a`
   align-items: center;
   text-decoration: none;
   color: ${colors.color3};
+  
+  opacity: 0;
+  animation: enter-animation ease 300ms 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   
   :hover {
     color: ${colors.primaryFont};
