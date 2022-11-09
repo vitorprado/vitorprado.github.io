@@ -105,7 +105,8 @@ h4 {
 h5 {
   font-family: "Exo", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 11px; }
+  font-size: 11px;
+  color: #8F428B; }
   h5.italic {
     font-style: italic; }
 
@@ -118,7 +119,7 @@ a {
   color: inherit;
   text-decoration: inherit; }
   a:hover {
-    color: #2895F1; }
+    color: #C359BE; }
   a .fa-external-link {
     font-size: 10px;
     vertical-align: text-top; }
@@ -158,7 +159,10 @@ ul {
       padding-left: 0; }
 
 .title {
-  margin-bottom: 10px; }
+  margin-bottom: 0; }
+
+.accent-text {
+  color: #8F428B; }
 
 @page {
   size: Letter; }
@@ -167,9 +171,9 @@ ul {
   padding-top: 20px; }
 
 .keyline {
-  width: 45px;
-  margin: 8px 0 10px;
-  border-top: 1px solid #242D35; }
+  width: 65px;
+  margin: 5px 0 10px;
+  border-top: 1px solid #C359BE; }
 
 .pull-left {
   float: left; }
@@ -346,6 +350,7 @@ ul {
         <div class="container education-container">
           <div class="title">
           <h3>Education</h3>
+          <div class="keyline"></div>
         </div>
          
           <section class="item">
@@ -362,16 +367,17 @@ ul {
             <h4>Technical School of UNICAMP</h4>
         
             <h5>Certificate in Software Development</h5>
-            <h5>
+            <h6>
                 <span class="startDate">01/2010</span>
                     <span class="endDate"> - 12/2011</span>
-            </h5>
+            </h6>
           </section>
         </div>
         <div class="skills-container">
           <section class="container">
               <div class="title">
                 <h3>Mobile Development</h3>
+                <div class="keyline"></div>
               </div>
               <h4 class="bold">Senior</h4>
               <ul class="minimal">
@@ -390,11 +396,21 @@ ul {
                 <li>
                   <h6>React Native</h6>
                 </li>
+                <li>
+                  <h6>Server Driven UI</h6>
+                </li>
+                <li>
+                  <h6>Unit Testing</h6>
+                </li>
+                <li>
+                  <h6>CI/CD</h6>
+                </li>
               </ul>
           </section>
           <section class="container">
               <div class="title">
                 <h3>Backend Development</h3>
+                <div class="keyline"></div>
               </div>
               <h4 class="bold">Senior</h4>
               <ul class="minimal">
@@ -405,13 +421,16 @@ ul {
                   <h6>JavaScript/TypeScript</h6>
                 </li>
                 <li>
-                  <h6>PosrgresSQL</h6>
+                  <h6>NodeJS</h6>
+                </li>
+                <li>
+                  <h6>PostgreSQL</h6>
                 </li>
                 <li>
                   <h6>APIs</h6>
                 </li>
                 <li>
-                  <h6>Severless</h6>
+                  <h6>Unit Testing</h6>
                 </li>
               </ul>
           </section>
@@ -419,6 +438,7 @@ ul {
         <div class="container languages-container">
           <div class="title">
             <h3>Languages</h3>
+            <div class="keyline"></div>
           </div>
         
           <ul class="minimal">
@@ -433,6 +453,7 @@ ul {
         <div class="container interests-container">
           <div class="title">
             <h3>Interests</h3>
+            <div class="keyline"></div>
           </div>
         
           <ul class="minimal">
@@ -446,14 +467,17 @@ ul {
         <div class="container summary-container">
           <div class="title">
             <h3>Summary</h3>
+            <div class="keyline"></div>
           </div>
           <p class="summary">
-            I&#x27;m a Mobile and backend developer based in Brazil with solid experience in building entire systems from scratch. I&#x27;ve been working with code since 2012, helping businesses to solve their problems through technology.
+            I&#x27;m a Mobile and Backend developer based in Brazil with solid experience building entire systems from scratch. I&#x27;ve been working with code since 2012, helping businesses to solve their problems through technology.
+        I have already worked with Android, iOS, Ruby, JavaScript/TypeScript, React Native, and KMM (Kotlin Multiplatform).
           </p>
         </div>
         <div class="container work-container">
           <div class="title">
             <h3>Experience</h3>
+            <div class="keyline"></div>
           </div>
         
           <section class="item">
@@ -463,22 +487,25 @@ ul {
               </h4>
               <h5 class="italic pull-right">
                   <span class="startDate">12/2021</span>
-                  <span class="endDate"> - Present</span>
+                  <span class="endDate"> - 11/2022</span>
               </h5>
             </div>
         
-              <h5>Main Developer</h5>
+              <h5>Lead Software Developer</h5>
         
-              <p class="summary">I built the whole technology stack of the company. When I join the app already exists and the system worked on Firebase real-time database and some functions (serverless). I went with TypeScript and AdonisJS to build a new API and delivered a full-featured server with the ability to handle payments, multiple external applications (for partners), and a set of tools for the operations team. After that, I rewrite the app to use the new APIs and native payment</p>
+              <p class="summary">I built the whole technology stack of the company. Even though I wasn&#x27;t at the beginning of the app&#x27;s development, when I joined the company, the only existing code was a real-time database built using Firebase. I implemented TypeScript and AdonisJS to create a new API and to deliver a full-featured server capable of handling payments and integrating with multiple external applications (for partners), as well as a set of tools for the operations team. Afterward, I rewrote the app to make it capable of using the new APIs and native payments.</p>
         
               <ul class="two-column">
                 <li>Responsible for whole tech stack</li>
                 <li>TypeScript</li>
                 <li>React Native</li>
                 <li>AdonisJS</li>
-                <li>PostgresSQL</li>
+                <li>PostgreSQL</li>
                 <li>Redis</li>
                 <li>Heroku</li>
+                <li>Unit Testing</li>
+                <li>TDD</li>
+                <li>CI/CD</li>
               </ul>
           </section>
           <section class="item">
@@ -492,9 +519,9 @@ ul {
               </h5>
             </div>
         
-              <h5>Android Developer</h5>
+              <h5>Senior Android Developer</h5>
         
-              <p class="summary">Worked as the main Android developer, improving two apps (travelers and hosts). I lead the migration of the host&#x27;s app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile. Occasionally I helped the web team with Ruby on Rails tasks and bug fixes.</p>
+              <p class="summary">I worked as the leading Android Developer, improving two apps (travelers and hosts). I led the migration of the host&#x27;s app to Kotlin Multiplatform and the modern view systems (Compose and SwiftUI). Meanwhile, occasionally I helped the web development team with Ruby on Rails tasks and bug fixes.</p>
         
               <ul class="two-column">
                 <li>Android</li>
@@ -507,6 +534,9 @@ ul {
                 <li>SwiftUI</li>
                 <li>Ruby on Rails</li>
                 <li>Heroku</li>
+                <li>Unit Testing</li>
+                <li>TDD</li>
+                <li>CI/CD</li>
               </ul>
           </section>
           <section class="item">
@@ -520,9 +550,9 @@ ul {
               </h5>
             </div>
         
-              <h5>Android Developer</h5>
+              <h5>Senior Android Developer</h5>
         
-              <p class="summary">Worked as an Android developer, responsible for the ticket reader app used in concerts and theaters to validate tickets. I delivered a way to minimize fraud using local broadcasts on the intranet and the ability to use a USB barcode scanner attached to an android device to increase velocity in operations.</p>
+              <p class="summary">I worked as an Android Developer, responsible for the ticket reader app used in concerts and theaters to validate tickets. I delivered a way to minimize fraud using local broadcasts on the intranet and the ability to use a USB barcode scanner attached to an Android device to increase speed in operations.</p>
         
               <ul class="two-column">
                 <li>Android</li>
@@ -541,9 +571,9 @@ ul {
               </h5>
             </div>
         
-              <h5>Android Developer</h5>
+              <h5>Senior Android Developer</h5>
         
-              <p class="summary">Worked as main Android developer, building white-label applications for mobile carriers. We made a Ferrari sticker album app used by Claro (mobile carrier) in Mexico. For a few months, I was the only one developing “Vivo TreinApp” on the web, an internal web app used by Vivo (mobile carrier) to train employees.</p>
+              <p class="summary">I worked as Main Android Developer, building white-label applications for mobile carriers. We made a Ferrari sticker album app used by Claro (a mobile carrier) in Mexico. For a few months, I was the only one developing “Vivo TreinApp” on the web, an internal web app used by Vivo (a mobile carrier) to train employees.</p>
         
               <ul class="two-column">
                 <li>Android</li>
@@ -564,11 +594,14 @@ ul {
         
               <h5>Android Developer</h5>
         
-              <p class="summary">Pinuts was an outsourcing company focused on the mobile market. I was employed as Rails developer but moved to be an Android developer after the first month.</p>
+              <p class="summary">Pinuts was an outsourcing company focused on the mobile market. The company hired me as a Rails developer, but then switched to Android Developer after the first month.</p>
         
               <ul class="two-column">
                 <li>Android</li>
                 <li>Ruby on Rails</li>
+                <li>Unit Testing</li>
+                <li>TDD</li>
+                <li>CI/CD</li>
               </ul>
           </section>
           <section class="item">
@@ -582,9 +615,9 @@ ul {
               </h5>
             </div>
         
-              <h5>Internship</h5>
+              <h5>Development Intern</h5>
         
-              <p class="summary">I joined Menki as an intern to develop mobile games using Lua &amp; CoronaSDK. I have acquired countless knowledge about Lua, Ruby on Rails, APIs, and Android native.</p>
+              <p class="summary">I joined Menki as an intern to develop mobile games using Lua &amp; CoronaSDK. I have acquired extensive knowledge about Lua, Ruby on Rails, APIs, and Android native.</p>
         
               <ul class="two-column">
                 <li>Lua</li>
@@ -595,6 +628,32 @@ ul {
           </section>
         </div>
 
+        <div class="container publications-container">
+          <div class="title">
+            <h3>Publications</h3>
+            <div class="keyline"></div>
+          </div>
+        
+          <section class="item">
+            <div class="section-header clearfix">
+              <h4 class="bold pull-left">
+                  jetc.dev Newsletter Issue #55
+              </h4>
+              <h5 class="italic pull-right">
+                  03/2021
+                  </h5>
+            </div>
+        
+                <h5 class="awarder">
+                  <a href="https://jetc.dev/issues/055.html#gist-vitorprado--ratingbarkt" target="_blank">
+                    Jetc.dev <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </h5>
+        
+              <p class="summary">I was featured in &quot;Jetc.dev&quot;, an important newsletter from the Jetpack Compose community, about a rating bar library I&#x27;ve made.</p>
+        
+          </section>
+        </div>
       </div>
     </div>
   </main>
