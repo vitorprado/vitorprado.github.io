@@ -1,6 +1,7 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components"
 import { colors } from '../styles/colors'
+import NavBar from './NavBar'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -12,9 +13,10 @@ const GlobalStyle = createGlobalStyle`
 `
 export default function Layout({ children }) {
   return (
-    <React.Fragment>
+    <main>
       <GlobalStyle />
+      <NavBar />
       {children}
-    </React.Fragment>
+    </main>
   )
 }
