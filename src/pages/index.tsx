@@ -13,4 +13,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Vitor Prado.</title>
+export const Head: HeadFC = () => <title>Vitor Prado</title>
